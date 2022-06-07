@@ -7,7 +7,7 @@ Aqui é possível acompanhar meus Projetos e Desafios.
     - HTML Web Developer
 
 ## Desafios de Projetos
-    - Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso.
+    - Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso. ✅
     - Recriando a página Inicial do Instagram.
 
 ## TODO
