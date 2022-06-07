@@ -1,0 +1,11 @@
+Elementos do tipo Block
+a largura ocupa tod a tela e os elementos ficam um abaixo do outro.
+<h1>, <p> , <table> 
+
+Elementos do tipo Inline
+A largura é de acordo com o conteúdo e os elementos ficam um ao lado do outro conforme couber
+<a> , <span> , <img>
+
+Elementos do tipo Inline-Block (hibrido)
+A largura é definida de acordo com o conteudo mas os elementos ficam um abaixo do outro.
+display: inline-block

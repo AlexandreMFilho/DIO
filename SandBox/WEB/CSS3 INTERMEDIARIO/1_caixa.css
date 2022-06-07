@@ -1,0 +1,19 @@
+/*
+Modelo de Caixa
+*/
+.conteudo{
+	border: 1px solid red;
+	/*PADDING (Espaçamento interno)*/
+	/*padding-top: 20px;
+	padding-right: 50px;
+	padding-bottom: 30px
+	padding-left: 40px;*/
+	/*padding: 20px 50px 40px 30px;-------top right bottom left*/
+	/*padding: 50px;--------------- em todos*/
+	/*padding: 50px 20px;*---------- top e bottom/ left right */
+	padding: 20px;
+	/*MARGIN (Espaaçamento externo)*/
+	margin: 10px;
+	/*aqui se aplicam as mesmas coisa do padding vistas acima*/
+	width: 900px;
+}

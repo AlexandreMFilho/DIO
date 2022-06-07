@@ -1,0 +1,125 @@
+/*Limpar formatações padrão*/
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #D8D8D8;
+}
+/*
+****FORMATAÇÃO DO MENU****
+*/
+a{
+	text-decoration: none;
+}
+a:link, a:visited{
+	color: #FFBF00;
+}
+a:hover{
+	text-decoration: underline;
+	color: #FFBF00;
+}
+#cabeçalho a:link,#cabeçalho a:visited{
+	color: white;
+	padding: 5px 15px;
+}
+#cabeçalho a:hover{
+	background: white;
+	color: #FFBF00;
+}
+
+
+/*
+****LAYOUT****
+*/
+#cabeçalho{
+	height: 90px;
+	text-align: center;
+	padding: 5px 30px;
+	background: #FFBF00;
+}
+#area_logo{
+	position: 	relative;
+	top: 	10px;
+}	
+#barra_links{
+	position: relative;
+	top: 20px;
+}
+
+
+/*------------------*/
+#principal{
+	width: 1000px;
+	position: absolute;
+	left: 250px;
+
+}
+#area_postagem, #area_lateral{
+	padding: 5px;
+	margin: 5px;
+}
+#area_postagem{
+	background: white;
+	width: 650px;
+	height: auto;
+	padding: 20px;
+	margin: 20px;
+	float: 	left;
+	/*position: relative;
+	left: 80px;*/
+}
+.postagem{
+	margin: 10px;
+	width: 	auto;
+	height: auto;
+}
+#area_lateral{
+
+	float: right;
+	width: 250px;
+	height: auto;
+	/*position: relative;
+	right: 	240px;
+	top: 	10px;*/
+}
+#recentes,#categorias{
+	background: white;
+	padding: 5px;
+	margin: 10px;
+}
+
+#direitos{
+	background: #BDBDBD;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	margin: 5px;
+}
+.data{
+	text-align: left;
+	font-size: 0.8em;
+	display: block;
+	margin: 5px;
+}
+.cinza{
+	color: #585858;
+}
+.branco{
+	color: white;
+}
+.amarelo{
+	color:  #FFBF00;
+}
+.caixa_cinza{
+	background: #BDBDBD;
+	margin: 5px;
+	padding: 5px;
+	color: #1C1C1C;
+}
+.clear{
+	clear: both;
+}

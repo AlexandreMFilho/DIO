@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html>
+	<!-- Aqui ficam estruturas de formatação, códigos javascript para animação ou interação com o user.
+		Configurar informações que não são visíveis ao usuário -->
+	<head>
+		<!-- Texto q aparece na aba -->
+		<title> Pagina WEB </title>
+		<meta charset="utf-8">
+	</head>
+
+
+	<!-- Aparece direto pro usuário -->
+	<body>
+		<h1>Parágrafo</h1>
+		<p>Parágrafo Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		
+		<!-- Linha horizontal-->		
+		<hr>
+
+		<h2>Fontes</h2>
+		<strong>Lorem</strong> <b>ipsum</b> <i>dolor</i> <em>sit</em> <u>amet,</u> <strike>consectetur adipiscing elit.</strike>
+		
+		<h3>Listas desordenadas</h3>
+		<ul type="circle">
+			<li>Lorem</li>
+			<li>Ipsum</li>
+		</ul>
+		
+		<ul type="square">
+			<li>Lorem</li>
+			<li>Ipsum</li>
+		</ul>
+
+		<ul type="disc">
+			<li>Lorem</li>
+			<li>Ipsum</li>
+		</ul>
+
+		<ul>
+			<li>Lorem</li>
+			<li>Ipsum</li>
+		</ul>
+
+		<h3>Listas ordenadas</h3>
+		<ol type="1">
+			<li>Lorem</li>
+			<li>Ipsum</li>
+		</ol>
+
+		<ol type="A">
+			<li>Lorem</li>
+			<li>Ipsum</li>
+		</ol>
+
+		<ol type="a">
+			<li>Lorem</li>
+			<li>Ipsum</li>
+		</ol>
+
+		<ol type="I">
+			<li>Lorem</li>
+			<li>Ipsum</li>
+		</ol>
+
+		<ol type="i">
+			<li>Lorem</li>
+			<li>Ipsum</li>
+		</ol>
+
+		<!-- Imagens , width(largura), height(altura)-->
+		<h2>Imagens</h2>
+		<img src="imagens/Monkey-typing.jpg" width="200">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Monkey-typing.jpg"height="200">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Monkey-typing.jpg" width="150" height="200">
+		<br>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Monkey-typing.jpg" width="100%">
+		<!-- LINKS (anchor)-->
+		<h2>Links</h2>
+		Go To
+		<a href="index.html">Página Principal</a>
+		/
+		<a href="https://www.google.com.br">GOOGLE</a>
+		/
+		<a href="">RECURSÃO</a>
+		/
+		<a href="links.html">LINKS FUTUROS</a>
+
+		<!-- Tabelas -->
+		<h2>Tabelas</h2>
+		<table border="2" width="50%">
+			<tr>
+				<td>aa</td>
+				<td>bb</td>
+				<td>cc</td>
+			</tr>
+			<tr>
+				<td>dd</td>
+				<td>ee</td>
+				<td>ff</td>
+			</tr>
+		</table>
+
+		<table border="1" width="300">
+			<!--tr table Row(linha) -- >
+			<tr>
+				<!--td Table Data/th Table Header -->
+				<th>Código</th>
+				<th>Produto</th>
+				<th>Preço</th>
+			</tr>
+			<tr>
+				<td>001</td>
+				<td>Notebook</td>
+				<td>R$ 2.500,99</td>
+			</tr>
+			<tr>
+				<td>002</td>
+				<td>Tablet</td>
+				<td>R$ 900,99</td>
+			</tr>
+			<tr>
+				<td rowspan="2">Desconto</td>
+				<td colspan="2">Cupom 1 - R$ 10</td>
+			<tr>	
+				<td colspan="2">Cupom 2 - R$ 12</td>
+			</tr>
+			<tr>
+				<td>Total</td>
+				<th colspan="2">R$ 3.379,98</th>
+			</tr>
+		</table>
+
+		<!-- Formulários -->
+		<h2>Formulários</h2>
+		<h4>Login</h4>
+		<!-- form action="processa.php" -->
+		<form>
+			Login:<br>
+			<input type="text" name="login"><br>
+			Senha:<br>
+			<input type="password" name="Senha"><br>
+			<!-- Button, value = texto do botão -->
+			<input type="button" value="Logar">
+		</form>
+
+		<h2>Aprofundamento em Formulários</h2>
+		<h4>Cadastre-se</h4>
+		<form>
+			Login:<br>
+			<input type="text" name="Login"><br>
+			Sexo:<br>
+			<input type="radio" name="sexo" value="M">Masculino<br>
+			<input type="radio" name="sexo" value="F">Feminino<br>
+			Checkbox:<br>
+			<input type="Checkbox">Receber Email<br>
+			<input type="Checkbox">Concordo com os termos do Contrato<br>
+			<input type="Checkbox">Eu confirmo que não li os termos acima<br>
+			Estado<br>
+			<select name="estado">
+				<option value="rj">RJ</option>
+				<option value="sp">SP</option>
+				<option value="mg">MG</option>
+				<option value="1">Sólido</option>
+				<option value="2">Líquido</option>
+				<option value="3">Gasoso</option>
+			</select>
+			<br>
+
+			Observações:<br>
+			<textarea></textarea><br>
+			<input type="submit" value="Cadastrar">
+		</form>
+
+		<h2>Caracteres Especiais</h2>
+		<a href="https://www.w3schools.com/html/html_entities.asp">Compilado deles</a>
+		<br>
+		&lt;p&gt;<br>
+		home &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- contato - quem somos
+	</body>
+</html>

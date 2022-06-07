@@ -1,0 +1,117 @@
+/*Limpar formatações padrão*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body, #cabecalho, #rodape{
+	border: 1px	solid  #b30000;	
+ 	width: 1200px;
+ 	position: absolute;
+ 	left: 30px;
+ 	background-color:  gray;
+ 	/*float: left;*/
+
+}
+#cabecalho{
+	height: 80px;
+	background-color: darkred;
+	text-align: center;
+	position: fixed;
+	top : -1px;
+	z-index: 100;
+}
+.titulo{
+	margin-top: 10px;
+	font-size: 32px;
+	z-index: 100;
+}
+.menu{
+	width: 1200px;
+	position: absolute;
+	left: 50px;
+	bottom: 10px;
+
+}
+.menu a{
+	color: black;
+	text-decoration: none;
+	margin: 0px 50px;
+	padding: 5px 10px;
+}
+.menu a:hover{
+	background-color: #b30000;
+}	
+#principal{
+	/*background-color: #4d79ff;*/
+	position: absolute;
+	top: 90px;
+}
+.barra_e, .centro, .barra_d{
+	/*border: 1px solid black;*/
+	/*height: 150px;*/	
+	float: left;
+	margin: 10px;
+	background-color: darkred ;
+}
+.barra_e {
+	/*border: 1px	solid black;
+	height: 150px;
+	float: left;
+	margin: 10px;*/
+	width: 150px;
+}
+.links a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	padding: 0px 15px;
+	margin: 10px;
+
+}
+.centro{
+	/*border: 1px	solid black;
+	height: 150px;
+	float: left;
+	margin: 10px;*/
+	width: 800px;
+
+}
+.post{
+	border: 1px solid #b30000;
+	padding: 20px 50px;
+	margin: 20px 50px;
+}
+.imagem{
+	border: 1px	solid black;
+	width: 500px;
+	height: 300px;
+}
+.barra_d{
+	/*border: 1px	solid black;
+	height: 150px;
+	float: left;
+	margin: 10px;*/
+	width: 180px;
+
+}
+#rodape{
+	height: 60px;
+	background-color: darkred;
+	position: fixed;
+	top: 614px;
+	text-align: center;
+	padding: 10px;
+}
+.rodap{
+	/*border: 1px solid black;*/
+	height: 60px;
+	width: 100px;
+	background-color: darkred;
+	padding: 20px 50px;
+	margin: 5px auto;
+
+}
+.clear{
+	clear: both;
+}

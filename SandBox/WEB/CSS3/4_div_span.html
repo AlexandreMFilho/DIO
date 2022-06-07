@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Div Span</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			/*ID*/
+			#topo{
+				background: lightblue;
+			}
+			#conteudo{
+				background: red;
+			}
+			#rodape{
+				background: green;
+			}
+			#assinatura{
+				background: yellow;
+			}
+			/*classe*/
+			.produto{
+				background: gray;
+				margin: 10px;
+			}
+			.azul{
+				color: blue;
+			}
+
+		</style>
+	</head>
+	<body>
+		<!-- Divs são utilizadas para organizar conteúdos do site dividindo-os(gerar divisão)-->
+		<!-- Div são do tipo block - semelhantes a uma tabela com largura 100% -->
+		<div id="topo">
+			<img src="imagens/amazon.png" width="150">
+			<ul>
+				<li>Home</li>
+				<li>Produtos</li>
+				<li>Contato</li>
+			</ul>
+		</div>
+		<div id="conteudo">
+			<div class="produto">
+				Produto 1
+			</div>
+			<div class="produto">
+				Produto 2
+			</div>
+			<div class="produto">
+				Produto 3
+			</div>
+		</div>
+		<div id="rodape">
+			Todos os <span class="azul"> Direitos</span> reservados
+		</div>
+		<!-- Span são do tipo inline -->
+		<span id="assinatura">
+			Alexandre
+		</span>
+		<span>
+			Filho
+		</span>
+
+	</body>
+</html>

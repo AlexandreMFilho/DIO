@@ -1,0 +1,29 @@
+#principal{
+	border: 5px solid red;
+	background: green;
+}
+.conteudo{
+	background: lightblue;
+	border: 1px solid red;
+	width: 200px;
+	height: 200px;
+}
+.conteudo1{
+	background: orangered;
+	border: 1px solid red;
+	width: 150px;
+	height: 150px;
+	float: right;/*left right none*/
+	margin: 10px;
+}
+.conteudo2{
+	background: orangered;
+	border: 1px solid red;
+	width: 150px;
+	height: 150px;
+	float: left;/*left right none*/
+	margin: 10px;
+}
+.clear{
+	clear: both;/*left right both none*/
+}

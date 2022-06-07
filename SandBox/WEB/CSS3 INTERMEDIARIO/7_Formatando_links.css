@@ -1,0 +1,26 @@
+a{
+	padding: 	5px 10px;
+	text-decoration: 	none;
+}
+/*Estados de Links
+*Não visitados: */
+/*a:link{
+	color: orangered;
+}*/
+/*Visitados*/
+/*a:visited{
+	color: 	#000;
+	background: yellow;
+}*/
+a:link,a:visited{
+	color: 	yellow	;
+}
+/*Passar o cursor por cima*/
+a:hover{
+	color: 	#000;
+	background: yellow;
+}
+/*Links Ativos*/
+a:active{
+	color: 	blue;
+}
