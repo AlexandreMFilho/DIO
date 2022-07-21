@@ -11,7 +11,7 @@ Aqui é possível acompanhar meus Projetos e Desafios.
     - Recriando a página Inicial do Instagram.
 
 ## Exercícios
-     https://alexandremfilho.github.io/DIO/SandBox/JAVASCRIPT/javascript_na_web/Contador/
+    [Contador] (https://alexandremfilho.github.io/DIO/SandBox/JAVASCRIPT/javascript_na_web/Contador/)
 
 ## TODO
     -
