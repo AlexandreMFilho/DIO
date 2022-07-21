@@ -1,0 +1,28 @@
+.container {
+    margin: 0px;
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    justify-content: center;
+}
+.tela{
+    max-height: 200px;
+    min-height: 150px;
+    max-width: 500px;
+    min-width: 150px;
+    flex-direction: center;
+}
+h1.container{
+    font-size: 50px;
+}
+#valor{
+    font-size: 50px;
+    position: relative;
+    bottom: 40px;
+}
+.botao{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 100px;
+}
