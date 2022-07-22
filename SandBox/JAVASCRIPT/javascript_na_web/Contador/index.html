@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<link rel="stylesheet" href="assets/css/styles.css" />-->
+        <script defer src="assets/js/teste.js"></script>
+    <style>
+    .container {
+        margin: 0px;
+        display: flex;
+        margin: 10px;
+        padding: 5px;
+        justify-content: center;
+    }
+    .tela{
+        max-height: 200px;
+        min-height: 150px;
+        max-width: 500px;
+        min-width: 150px;
+        flex-direction: column;
+    }
+    h1.container{
+        font-size: 50px;
+    }
+    #valor{
+        font-size: 50px;
+        position: relative;
+        bottom: 40px;
+    }
+    .botao{
+        height: 50px;
+        width: 50px;
+        position: relative;
+        top: 100px;
+    }
+    .menu{
+     flex-direction: row;
+     padding: 10px; 
+    }</style>
     <title>Teste</title>
 </head>
 
@@ -13,13 +47,27 @@
     <h1 class="container">Contador</h1>
     <section class="container">
         <div class="container tela">
-            <button type="button" class="botao" onclick="decrementa()"> - </button>
-            <p id="valor"> 0 </p>
-            <button type="button" class="botao" onclick="incrementa()"> + </button>
+            <div class="container">
+                <button type="button" class="botao" onclick="decrementa()"> - </button>
+                <p id="valor"> 0 </p>
+                <button type="button" class="botao" onclick="incrementa()"> + </button>
+            </div>
         </div>
-    </section>
+            <br>        
+        </section>
+        <div class="container menu">
+            <span>Limite Mínimo:</span>
+            <input type="number" class="floor">
+            <span>Limite Máximo:</span>
+            <input type="number" class="ceil">
+        </div>
 
-    <script src="assets/js/teste.js"></script>
+        <div class="container tela">
+            <div class="container">
+                <button type="button"  onclick="atualiza()"> Atualiza Máximo e Mínimo </button>
+            </div>
+        </div>
+
 </body>
 
 </html>
