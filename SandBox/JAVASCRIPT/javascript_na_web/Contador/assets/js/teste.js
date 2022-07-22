@@ -7,12 +7,11 @@ function atualiza(){
 
     if(minimo < maximo){
         minimo = document.getElementsByClassName("floor")[0].value;
-        maximo = document.getElementsByClassName("ceil")[0].value
+        maximo = document.getElementsByClassName("ceil")[0].value;
     }else{
         console.log("O valor mínimo deve ser menor que o máximo.");
     }
 }
-
 function incrementa(){
     if(contador < maximo){
         contador++;

@@ -13,6 +13,8 @@ Aqui é possível acompanhar meus Projetos e Desafios.
 ## Exercícios
     - Contador : 
     https://alexandremfilho.github.io/DIO/SandBox/JAVASCRIPT/javascript_na_web/Contador/
+    - ToDo List : 
+    https://alexandremfilho.github.io/DIO/SandBox/JAVASCRIPT/javascript_na_web/Todo_List/
     
 ## TODO
     -
