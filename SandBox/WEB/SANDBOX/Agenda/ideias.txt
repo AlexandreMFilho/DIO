@@ -1,0 +1,28 @@
+FEITOS-------------------------------------------------------------------------------------------
+Um grid 20x7 (7 dias na semana) (20 horas [4:00 as 23:00])
+valores de passagem
+valores alimentação
+eventos (prova, restaurante, uber, role)
+gasto previsto semanal- diario
+
+
+A FAZER------------------------------------------------------------------------------------------
+
+Quero colocar:
+aulas da faculdade
+valor mensal previsto
+economia mensal ou gasto extra
+saldo mensal
+programar a quantidade de passagem de cada tipo(onibus metro)
+previsão gasto semanal
+
+
+OQUE FAZ ATÉ AGORA-------------------------------------------------------------------------------
+Verifica se um evento/objeto existe
+Cria um evento/objeto se ele não existir
+linka um evento/objeto a um espaço no grid
+marca um evento como concluido
+busca um evento, se achou retorna ele, senão retorna false
+dado uma coordenada do grid retorna o dia e a hora correspondente
+da um retorno diario de gasto previstos e gastos efetuados
+quando mudar o dia, limpar os concluidos de ontem
